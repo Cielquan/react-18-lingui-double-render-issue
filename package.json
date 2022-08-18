@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lang-extract": "lingui extract --clean",
+    "lang-compile": "lingui compile"
+  },
+  "dependencies": {
+    "@lingui/core": "3.14.0",
+    "@lingui/react": "3.14.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@lingui/cli": "3.14.0",
+    "@lingui/conf": "3.14.0",
+    "@lingui/loader": "3.14.0",
+    "@lingui/macro": "3.14.0",
+    "@types/node": "18.7.6",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "babel-plugin-macros": "3.1.0",
+    "typescript": "4.7.4"
+  }
+}
